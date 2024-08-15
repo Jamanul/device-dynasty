@@ -1,12 +1,20 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
+import { AuthContext } from '../firebaseAuth/AuthProvider';
 
 const Login = () => {
-    const handleLogin = e =>{
+    const {logInWithEmail}=useContext(AuthContext)
+    const handleLogin = async(e) =>{
         e.preventDefault()
         const form= e.target
         const email = form.email.value
         const password = form.password.value
+        const userData={
+          email,password
+        }
+        await logInWithEmail(userData.email,userData.password)
+        .then(result=>{console.log(result)})
+        .catch(error=>{console.log(error)})
     }
     return (
         <div className="hero min-h-screen">
