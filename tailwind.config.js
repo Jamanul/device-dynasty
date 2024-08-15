@@ -10,6 +10,9 @@ export default {
         primary: "#478CCF",
         secondary: ""
       },
+      fontFamily: {
+        roboto: ['Roboto', 'sans-serif'],
+      },
     },
   },
   plugins: [require('daisyui')],

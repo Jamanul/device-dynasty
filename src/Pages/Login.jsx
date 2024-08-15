@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Login = () => {
     const handleLogin = e =>{
@@ -17,7 +18,7 @@ const Login = () => {
           </div>
           <div className="card bg-base-100 w-full max-w-sm shrink-0 border py-24 border-primary rounded-3xl">
           <h1 className="text-5xl font-bold text-center pt-2 text-primary">Login now!</h1>
-            <form className="card-body">
+            <form onSubmit={handleLogin} className="card-body">
               <div className="form-control">
                 <label className="label">
                   <span className="label-text">Email</span>
@@ -34,6 +35,7 @@ const Login = () => {
                 <button className="btn bg-primary text-white font-bold text-xl">Login</button>
               </div>
             </form>
+            <h2 className='text-center'>Don't have an account?? <span className='font-bold text-primary'><Link to='/register'>Register !!!</Link> </span></h2>
           </div>
         </div>
       </div>
