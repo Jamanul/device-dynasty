@@ -26,7 +26,7 @@ const Registration = () => {
         <div className="hero min-h-screen">
         <div className="hero-content flex-col lg:flex-row">
           <div className="text-center lg:text-left">
-            <img src="https://i.postimg.cc/C5ZNM2Ps/9e2866d655b48b6000e2bc7d1bb73724.jpg" alt="" srcset="" />
+            <img src="https://i.postimg.cc/C5ZNM2Ps/9e2866d655b48b6000e2bc7d1bb73724.jpg" alt="" srcSet="" />
             <p className="py-6">
             </p>
           </div>

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { AuthContext } from "../firebaseAuth/AuthProvider";
 
 const Navbar = () => {
-  const { user } = useContext(AuthContext);
+  const { user,logOut } = useContext(AuthContext);
   //console.log(user)
   return (
     <div className="navbar bg-base-100">
@@ -89,7 +89,7 @@ const Navbar = () => {
           >
             <div className="w-10 rounded-full">
               {user ? (
-                <img src={user.photoURL} alt="" srcset="" />
+                <img src={user.photoURL} alt="" srcSet="" />
               ) : (
                 <img
                   alt="Tailwind CSS Navbar component"
@@ -109,12 +109,12 @@ const Navbar = () => {
             </li>
             {user ? (
               <li>
-                <button className="text-white btn bg-primary">Log Out</button>
+                <button onClick={()=>logOut()} className="text-white btn bg-primary">Log Out</button>
               </li>
             ) : (
               <li>
-                <button>
-                  <Link to={"/login"} className="text-white btn bg-primary">
+                <button className="text-white btn bg-primary">
+                  <Link to={"/login"} >
                     Login
                   </Link>
                 </button>

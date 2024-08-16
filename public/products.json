@@ -1,7 +1,7 @@
 [
     {
         "productName": "Ultra HD Monitor 27",
-        "productImage": "image1.jpg",
+        "productImage": "https://i.postimg.cc/FH9yYGHW/6cbcaf1c797bdfe434a8519ab137f643.jpg",
         "productBrand": "TechWare",
         "description": "A 27-inch Ultra HD monitor with vibrant colors and sharp display.",
         "price": 1200,
@@ -12,7 +12,7 @@
     },
     {
         "productName": "Bluetooth Wireless Keyboard",
-        "productImage": "image2.jpg",
+        "productImage": "https://i.postimg.cc/wTQDBh7b/5ef8fff54e2cb54e4806bc8a6d19417b.jpg",
         "productBrand": "ByteTech",
         "description": "Compact and responsive Bluetooth wireless keyboard.",
         "price": 150,
@@ -23,7 +23,7 @@
     },
     {
         "productName": "4K Ultra HD Smart TV",
-        "productImage": "image3.jpg",
+        "productImage": "https://i.postimg.cc/y6cp9Q7s/99d8f6aaf09cfc2e8340aedbefc6cd7e.jpg",
         "productBrand": "GizmoWare",
         "description": "A 55-inch 4K Ultra HD Smart TV with built-in streaming apps.",
         "price": 1800,
@@ -34,7 +34,7 @@
     },
     {
         "productName": "Wireless Gaming Mouse",
-        "productImage": "image4.jpg",
+        "productImage": "https://i.postimg.cc/hGCWkCfH/0d22ac71dbde19a2e4d01302898d08fa.jpg",
         "productBrand": "TechNest",
         "description": "Ergonomic wireless mouse with customizable buttons.",
         "price": 100,
@@ -45,7 +45,7 @@
     },
     {
         "productName": "1080p HD Web Cam",
-        "productImage": "image5.jpg",
+        "productImage": "https://i.postimg.cc/gJ4RM7c8/189b679b3e553fe4c2b5ddfac20aa4af.jpg",
         "productBrand": "PixelGear",
         "description": "High-definition 1080p web cam with autofocus and built-in microphone.",
         "price": 250,
@@ -56,7 +56,7 @@
     },
     {
         "productName": "Curved Gaming Monitor 32",
-        "productImage": "image6.jpg",
+        "productImage": "https://i.postimg.cc/hGYT3Bb6/82b0302d44fc4798ec9cda34df29cd05.jpg",
         "productBrand": "TechWare",
         "description": "32-inch curved gaming monitor with high refresh rate.",
         "price": 1300,
@@ -67,7 +67,7 @@
     },
     {
         "productName": "Mechanical Keyboard RGB",
-        "productImage": "image7.jpg",
+        "productImage": "https://i.postimg.cc/26H5jhVv/5a9773cf7002e64a6f45a16f737ced99.jpg",
         "productBrand": "ByteTech",
         "description": "RGB backlit mechanical keyboard with customizable keys.",
         "price": 180,
@@ -78,7 +78,7 @@
     },
     {
         "productName": "Smart LED TV 50",
-        "productImage": "image8.jpg",
+        "productImage": "https://i.postimg.cc/QCG6w5k2/b587b337c2434441855c72a662597494.jpg",
         "productBrand": "GizmoWare",
         "description": "50-inch Smart LED TV with HDR and voice control.",
         "price": 1600,
@@ -89,7 +89,7 @@
     },
     {
         "productName": "Ergonomic Wireless Mouse",
-        "productImage": "image9.jpg",
+        "productImage": "https://i.postimg.cc/8PWG7B06/30944e6705a768e8e122dae3e7e9f935.jpg",
         "productBrand": "TechNest",
         "description": "Comfortable wireless mouse with adjustable DPI settings.",
         "price": 120,
@@ -100,7 +100,7 @@
     },
     {
         "productName": "4K Streaming Web Cam",
-        "productImage": "image10.jpg",
+        "productImage": "https://i.postimg.cc/7LtJ02Kn/576f2420e31adebb535411aa236520cf.jpg",
         "productBrand": "PixelGear",
         "description": "4K UHD streaming web cam with built-in privacy shutter.",
         "price": 320,
@@ -111,7 +111,7 @@
     },
     {
         "productName": "UltraWide Monitor 34",
-        "productImage": "image11.jpg",
+        "productImage": "https://i.postimg.cc/nrb7pGW1/67bc24260a2b01d4fca6651adcca7edc.jpg",
         "productBrand": "TechWare",
         "description": "34-inch UltraWide monitor with multiple input options.",
         "price": 1400,
@@ -122,7 +122,7 @@
     },
     {
         "productName": "Gaming Mouse Pro",
-        "productImage": "image12.jpg",
+        "productImage": "https://i.postimg.cc/zGF1jD5D/32a4f2cdfe93264fb270f115dfa27664.jpg",
         "productBrand": "ByteTech",
         "description": "High-precision gaming mouse with RGB lighting.",
         "price": 140,
@@ -133,7 +133,7 @@
     },
     {
         "productName": "Smart 4K TV 65",
-        "productImage": "image13.jpg",
+        "productImage": "https://i.postimg.cc/rwQPsDM4/d72008bea5e5485f15186796a42cdf4e.jpg",
         "productBrand": "GizmoWare",
         "description": "65-inch 4K Smart TV with Dolby Vision and integrated apps.",
         "price": 2000,
@@ -144,7 +144,7 @@
     },
     {
         "productName": "Wireless Mechanical Keyboard",
-        "productImage": "image14.jpg",
+        "productImage": "https://i.postimg.cc/nzMXD38T/4f0f9717a0642a5a7d9ce438b1a8b3e8.jpg",
         "productBrand": "TechNest",
         "description": "Wireless mechanical keyboard with long battery life.",
         "price": 190,
@@ -155,7 +155,7 @@
     },
     {
         "productName": "HD Web Cam with Ring Light",
-        "productImage": "image15.jpg",
+        "productImage": "https://i.postimg.cc/L5YXzQJH/7cb86b86eb54d4ee6886aad5dc12ba3d.jpg",
         "productBrand": "PixelGear",
         "description": "1080p HD web cam with built-in ring light for optimal lighting.",
         "price": 220,
@@ -166,7 +166,7 @@
     },
     {
         "productName": "Curved Monitor 29",
-        "productImage": "image16.jpg",
+        "productImage": "https://i.postimg.cc/VNJbthQR/28dcf0b253639f84e2ebcba325129072.jpg",
         "productBrand": "TechWare",
         "description": "29-inch curved monitor with immersive viewing experience.",
         "price": 1100,
@@ -177,7 +177,7 @@
     },
     {
         "productName": "Ergonomic Mechanical Keyboard",
-        "productImage": "image17.jpg",
+        "productImage": "https://i.postimg.cc/4xbB3QTm/0f03851e6051dd9e6f2e2bf2c7ea9708.jpg",
         "productBrand": "ByteTech",
         "description": "Ergonomically designed mechanical keyboard with wrist support.",
         "price": 160,
@@ -188,7 +188,7 @@
     },
     {
         "productName": "Smart TV with Alexa",
-        "productImage": "image18.jpg",
+        "productImage": "https://i.postimg.cc/yYKQTmN9/e22832dfd4c862352509b72fe98833ee.jpg",
         "productBrand": "GizmoWare",
         "description": "55-inch 4K Smart TV with Alexa voice control.",
         "price": 1700,
@@ -199,7 +199,7 @@
     },
     {
         "productName": "Precision Gaming Mouse",
-        "productImage": "image19.jpg",
+        "productImage": "https://i.postimg.cc/WzB9RZmR/45526dfdc079ae7de2d47c3229079b30.jpg",
         "productBrand": "TechNest",
         "description": "Precision gaming mouse with adjustable weights and DPI.",
         "price": 180,
@@ -210,7 +210,7 @@
     },
     {
         "productName": "4K Web Cam with HDR",
-        "productImage": "image20.jpg",
+        "productImage": "https://i.postimg.cc/bY985hjK/877ec882dfe484e2d254aef57eaba6dd.jpg",
         "productBrand": "PixelGear",
         "description": "4K web cam with HDR support for superior video quality.",
         "price": 300,
@@ -221,7 +221,7 @@
     },
     {
         "productName": "Quad HD Gaming Monitor",
-        "productImage": "image21.jpg",
+        "productImage": "https://i.postimg.cc/SRSS6XYh/cc1c86e253d77bc5c78a3ccb1cc80830.jpg",
         "productBrand": "TechWare",
         "description": "27-inch Quad HD gaming monitor with high refresh rate.",
         "price": 1300,
@@ -232,7 +232,7 @@
     },
     {
         "productName": "RGB Mechanical Keyboard",
-        "productImage": "image22.jpg",
+        "productImage": "https://i.postimg.cc/26XyLN8c/1854503ab467c5f2558777f7bf9bf53e.jpg",
         "productBrand": "ByteTech",
         "description": "RGB mechanical keyboard with customizable lighting effects.",
         "price": 175,
@@ -243,7 +243,7 @@
     },
     {
         "productName": "Smart OLED TV 55",
-        "productImage": "image23.jpg",
+        "productImage": "https://i.postimg.cc/DzNpQRWy/ff7a53d2f2b30861063f03dfd01c54aa.jpg",
         "productBrand": "GizmoWare",
         "description": "55-inch Smart OLED TV with stunning color accuracy and contrast.",
         "price": 1900,
@@ -254,7 +254,7 @@
     },
     {
         "productName": "Lightweight Wireless Mouse",
-        "productImage": "image24.jpg",
+        "productImage": "https://i.postimg.cc/cJ1G5q4R/46b2018b85a02b33d3eb344231da9584.jpg",
         "productBrand": "TechNest",
         "description": "Lightweight wireless mouse designed for fast-paced gaming.",
         "price": 140,
@@ -265,7 +265,7 @@
     },
     {
         "productName": "1080p Web Cam with Privacy Cover",
-        "productImage": "image25.jpg",
+        "productImage": "https://i.postimg.cc/FzsbN4CT/8e10fd0a2cfdc86959556b10d6d022d0.jpg",
         "productBrand": "PixelGear",
         "description": "1080p web cam with built-in privacy cover and wide-angle lens.",
         "price": 210,
@@ -276,7 +276,7 @@
     },
     {
         "productName": "4K HDR Monitor",
-        "productImage": "image26.jpg",
+        "productImage": "https://i.postimg.cc/D0TWtyWj/3a50356b7db76564d9d6486569dd6b90.jpg",
         "productBrand": "TechWare",
         "description": "32-inch 4K HDR monitor with ultra-thin bezels.",
         "price": 1600,
@@ -287,7 +287,7 @@
     },
     {
         "productName": "Silent Mechanical Keyboard",
-        "productImage": "image27.jpg",
+        "productImage": "https://i.postimg.cc/ZndLzrcY/a143f1fdec6ab64c3db1a3d5cccea946.jpg",
         "productBrand": "ByteTech",
         "description": "Silent mechanical keyboard with durable key switches.",
         "price": 150,
@@ -298,7 +298,7 @@
     },
     {
         "productName": "Quantum Dot Smart TV 75",
-        "productImage": "image28.jpg",
+        "productImage": "https://i.postimg.cc/bY0DCFgs/f4de638662c429a4b5c817fa53ab7cc1.jpg",
         "productBrand": "GizmoWare",
         "description": "75-inch Quantum Dot Smart TV with AI upscaling.",
         "price": 2000,
@@ -309,7 +309,7 @@
     },
     {
         "productName": "Advanced Gaming Mouse",
-        "productImage": "image29.jpg",
+        "productImage": "https://i.postimg.cc/L51cZ2Np/5528e4c982297365e5c4c2216e710133.jpg",
         "productBrand": "TechNest",
         "description": "Advanced gaming mouse with high precision and customizable macros.",
         "price": 160,
@@ -320,7 +320,7 @@
     },
     {
         "productName": "Ultra HD Web Cam",
-        "productImage": "image30.jpg",
+        "productImage": "https://i.postimg.cc/Kzc3g57z/98d07915783dda94e67e776be31c2193.jpg",
         "productBrand": "PixelGear",
         "description": "Ultra HD web cam with advanced noise reduction technology.",
         "price": 250,
@@ -331,7 +331,7 @@
     },
     {
         "productName": "Curved LED Monitor 38",
-        "productImage": "image31.jpg",
+        "productImage": "https://i.postimg.cc/50q9Q50g/e94cae708875bc97f71fd754255d4008.jpg",
         "productBrand": "TechWare",
         "description": "38-inch curved LED monitor with immersive viewing experience.",
         "price": 1700,
@@ -342,7 +342,7 @@
     },
     {
         "productName": "Backlit Mechanical Keyboard",
-        "productImage": "image32.jpg",
+        "productImage": "https://i.postimg.cc/28NQBLGv/d104d33b590f7c3f17a5ee21e71f56e8.jpg",
         "productBrand": "ByteTech",
         "description": "Backlit mechanical keyboard with customizable RGB lighting.",
         "price": 170,
@@ -353,7 +353,7 @@
     },
     {
         "productName": "Smart LED TV 60",
-        "productImage": "image33.jpg",
+        "productImage": "https://i.postimg.cc/28xH91qt/04b5f4492bb59c07420e22c47c6c55c3.jpg",
         "productBrand": "GizmoWare",
         "description": "60-inch Smart LED TV with 4K resolution and streaming apps.",
         "price": 1800,
@@ -364,7 +364,7 @@
     },
     {
         "productName": "Pro Gaming Mouse",
-        "productImage": "image34.jpg",
+        "productImage": "https://i.postimg.cc/RFyrFN1d/6df65e58a78ec7c618883780b961453f.jpg",
         "productBrand": "TechNest",
         "description": "Pro gaming mouse with ultra-precise sensor and adjustable DPI.",
         "price": 150,
@@ -375,7 +375,7 @@
     },
     {
         "productName": "HD Web Cam with Noise Reduction",
-        "productImage": "image35.jpg",
+        "productImage": "https://i.postimg.cc/8kRPVvLX/9a77af4f1f6dcc7eece1f57af78adddd.jpg",
         "productBrand": "PixelGear",
         "description": "HD web cam with noise reduction and autofocus features.",
         "price": 190,
@@ -386,7 +386,7 @@
     },
     {
         "productName": "UltraWide LED Monitor 49",
-        "productImage": "image36.jpg",
+        "productImage": "https://i.postimg.cc/tCgR7xHd/3be76e87e8e772b87981110e601a73d2.jpg",
         "productBrand": "TechWare",
         "description": "49-inch UltraWide LED monitor with split-screen functionality.",
         "price": 2000,
@@ -397,7 +397,7 @@
     },
     {
         "productName": "Compact Mechanical Keyboard",
-        "productImage": "image37.jpg",
+        "productImage": "https://i.postimg.cc/Px8DCd82/c3d6590fa04907befa4d2dda76f66785.jpg",
         "productBrand": "ByteTech",
         "description": "Compact mechanical keyboard with detachable cable.",
         "price": 160,
@@ -408,7 +408,7 @@
     },
     {
         "productName": "8K QLED TV 85",
-        "productImage": "image38.jpg",
+        "productImage": "https://i.postimg.cc/rmWj1sXQ/07c8a699892867a4cfe371559c583580.jpg",
         "productBrand": "GizmoWare",
         "description": "85-inch 8K QLED TV with AI-enhanced picture quality.",
         "price": 2000,
@@ -419,7 +419,7 @@
     },
     {
         "productName": "Precision Wireless Mouse",
-        "productImage": "image39.jpg",
+        "productImage": "https://i.postimg.cc/nVXpJtKT/6fd8525a7483bf691d4fe27b6ef776d0.jpg",
         "productBrand": "TechNest",
         "description": "Precision wireless mouse with long battery life and ergonomic design.",
         "price": 130,
@@ -430,7 +430,7 @@
     },
     {
         "productName": "4K Web Cam with Wide Angle",
-        "productImage": "image40.jpg",
+        "productImage": "https://i.postimg.cc/sxY26Q48/e6b1af07b7d7d6966adfa567e0cdaab6.jpg",
         "productBrand": "PixelGear",
         "description": "4K web cam with wide-angle lens and auto light correction.",
         "price": 260,
@@ -441,7 +441,7 @@
     },
     {
         "productName": "4K IPS Monitor 27",
-        "productImage": "image41.jpg",
+        "productImage": "https://i.postimg.cc/rwKpZtny/601ba341f86ef4cb86e64f8b059095d8.jpg",
         "productBrand": "TechWare",
         "description": "27-inch 4K IPS monitor with accurate color reproduction.",
         "price": 1500,
@@ -452,7 +452,7 @@
     },
     {
         "productName": "RGB Wireless Keyboard",
-        "productImage": "image42.jpg",
+        "productImage": "https://i.postimg.cc/BZHDsQ3v/02780a30e018a2faaa3e4f8495489895.jpg",
         "productBrand": "ByteTech",
         "description": "RGB wireless keyboard with customizable lighting patterns.",
         "price": 180,
@@ -463,7 +463,7 @@
     },
     {
         "productName": "Smart UHD TV 65",
-        "productImage": "image43.jpg",
+        "productImage": "https://i.postimg.cc/FHWTmwVg/2238dd731860235e1c42644be972015c.jpg",
         "productBrand": "GizmoWare",
         "description": "65-inch Smart UHD TV with integrated voice assistants.",
         "price": 1900,
@@ -474,7 +474,7 @@
     },
     {
         "productName": "High-Precision Mouse",
-        "productImage": "image44.jpg",
+        "productImage": "https://i.postimg.cc/nzCbpvmM/985accf40578a2df64fac52496afa55d.jpg",
         "productBrand": "TechNest",
         "description": "High-precision mouse with customizable buttons and ergonomic grip.",
         "price": 140,
@@ -485,7 +485,7 @@
     },
     {
         "productName": "1080p Web Cam with Auto Focus",
-        "productImage": "image45.jpg",
+        "productImage": "https://i.postimg.cc/d3ys77f3/fa67250691e3ae4b366ee5179a496b0d.jpg",
         "productBrand": "PixelGear",
         "description": "1080p web cam with auto focus and low-light correction.",
         "price": 230,
@@ -496,7 +496,7 @@
     },
     {
         "productName": "Curved Gaming Monitor 35",
-        "productImage": "image46.jpg",
+        "productImage": "https://i.postimg.cc/JzD15C0G/66294d3c11674d2536173439d9dd2a59.jpg",
         "productBrand": "TechWare",
         "description": "35-inch curved gaming monitor with ultra-fast response time.",
         "price": 1800,
@@ -507,7 +507,7 @@
     },
     {
         "productName": "Wireless RGB Mechanical Keyboard",
-        "productImage": "image47.jpg",
+        "productImage": "https://i.postimg.cc/d3r2yxCX/90a2db26bbf39c6104f71c3f6e0fde4e.jpg",
         "productBrand": "ByteTech",
         "description": "Wireless mechanical keyboard with customizable RGB lighting.",
         "price": 195,
@@ -518,7 +518,7 @@
     },
     {
         "productName": "Smart 4K LED TV 50",
-        "productImage": "image48.jpg",
+        "productImage": "https://i.postimg.cc/JhsPhKTw/3df8afe17dbda299ed9bc54488369bef.jpg",
         "productBrand": "GizmoWare",
         "description": "50-inch Smart 4K LED TV with built-in streaming apps and voice control.",
         "price": 1700,
@@ -529,7 +529,7 @@
     },
     {
         "productName": "Wireless Ergonomic Mouse",
-        "productImage": "image49.jpg",
+        "productImage": "https://i.postimg.cc/tR8yRm2b/e2246fb6003ce101b0cae270886308b2.jpg",
         "productBrand": "TechNest",
         "description": "Wireless ergonomic mouse with adjustable DPI and long battery life.",
         "price": 150,
@@ -540,7 +540,7 @@
     },
     {
         "productName": "Ultra HD Web Cam with Dual Mic",
-        "productImage": "image50.jpg",
+        "productImage": "https://i.postimg.cc/SRXyhR8S/cca7bb54b01758d472e42c6c7c9a953b.jpg",
         "productBrand": "PixelGear",
         "description": "Ultra HD web cam with dual microphone and noise cancellation.",
         "price": 280,
@@ -551,7 +551,7 @@
     },
     {
         "productName": "Gaming Monitor with G-Sync",
-        "productImage": "image51.jpg",
+        "productImage": "https://i.postimg.cc/tCrTzzzm/b6ad2e048f919c275d8ce61e98c93efa.jpg",
         "productBrand": "TechWare",
         "description": "27-inch gaming monitor with G-Sync technology for tear-free gaming.",
         "price": 1700,
@@ -562,7 +562,7 @@
     },
     {
         "productName": "Silent RGB Mechanical Keyboard",
-        "productImage": "image52.jpg",
+        "productImage": "https://i.postimg.cc/MKJbSz28/abdb2b53906c3a9eed778e01681f2e01.jpg",
         "productBrand": "ByteTech",
         "description": "Silent RGB mechanical keyboard with customizable key lighting.",
         "price": 185,
@@ -573,7 +573,7 @@
     },
     {
         "productName": "Quantum Dot Smart TV 65",
-        "productImage": "image53.jpg",
+        "productImage": "https://i.postimg.cc/YST8LgVv/5077a3fb3ddb52eedf2c3da135808fbd.jpg",
         "productBrand": "GizmoWare",
         "description": "65-inch Quantum Dot Smart TV with HDR10+ support.",
         "price": 1900,
@@ -584,7 +584,7 @@
     },
     {
         "productName": "High-Speed Gaming Mouse",
-        "productImage": "image54.jpg",
+        "productImage": "https://i.postimg.cc/cJ8zYQmQ/4d7c494ac6225621e9d98591c8cfdd24.jpg",
         "productBrand": "TechNest",
         "description": "High-speed gaming mouse with programmable buttons.",
         "price": 140,
@@ -595,7 +595,7 @@
     },
     {
         "productName": "Full HD Web Cam with Stereo Mic",
-        "productImage": "image55.jpg",
+        "productImage": "https://i.postimg.cc/Hx7sWDGq/91dc30116fcaba56df39805451d7d55b.jpg",
         "productBrand": "PixelGear",
         "description": "Full HD web cam with stereo microphone for clear audio.",
         "price": 220,
@@ -606,7 +606,7 @@
     },
     {
         "productName": "Curved UltraWide Monitor 49",
-        "productImage": "image56.jpg",
+        "productImage": "https://i.postimg.cc/kMsXnyLX/bb42e88148c882b4cdf03c140609aff8.jpg",
         "productBrand": "TechWare",
         "description": "49-inch curved UltraWide monitor with immersive viewing experience.",
         "price": 2000,
@@ -617,7 +617,7 @@
     },
     {
         "productName": "Portable Wireless Keyboard",
-        "productImage": "image57.jpg",
+        "productImage": "https://i.postimg.cc/g2p4Sz61/3ea6a022908886dc234f3634482cb2ee.jpg",
         "productBrand": "ByteTech",
         "description": "Portable wireless keyboard with Bluetooth connectivity.",
         "price": 150,
@@ -628,7 +628,7 @@
     },
     {
         "productName": "4K UHD Smart TV 70",
-        "productImage": "image58.jpg",
+        "productImage": "https://i.postimg.cc/VkLKxznk/7f6fd4af87cabfd3eb104e861db9c485.jpg",
         "productBrand": "GizmoWare",
         "description": "70-inch 4K UHD Smart TV with AI voice control and streaming apps.",
         "price": 2000,
@@ -639,7 +639,7 @@
     },
     {
         "productName": "Ergonomic Gaming Mouse",
-        "productImage": "image59.jpg",
+        "productImage": "https://i.postimg.cc/gkW6PdQd/ce496d2aa265acd03640947047d27a23.jpg",
         "productBrand": "TechNest",
         "description": "Ergonomic gaming mouse with high precision and customizable weights.",
         "price": 160,
@@ -650,7 +650,7 @@
     },
     {
         "productName": "HD Web Cam with Wide-Angle Lens",
-        "productImage": "image60.jpg",
+        "productImage": "https://i.postimg.cc/5yd967b6/128710d55778dff22f604b2e07e71f02.jpg",
         "productBrand": "PixelGear",
         "description": "HD web cam with wide-angle lens and auto focus.",
         "price": 240,

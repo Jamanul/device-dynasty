@@ -4,7 +4,7 @@ import Navbar from '../components/Navbar';
 
 const Root = () => {
     return (
-        <div className='font-roboto'>
+        <div className='font-roboto max-w-7xl mx-auto'>
             <Navbar/>
             <Outlet/>
         </div>
