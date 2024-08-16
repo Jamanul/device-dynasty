@@ -8,6 +8,7 @@ import AuthProvider from "./firebaseAuth/AuthProvider.jsx";
 import Home from "./Pages/Home.jsx";
 import Login from "./Pages/Login.jsx";
 import Registration from "./Pages/Registration.jsx";
+import AllProducts from "./Pages/AllProducts.jsx";
 
 const router = createBrowserRouter([
   {
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
         element: <Registration/>,
         path: "/register"
       },
+      {
+        element: <AllProducts/>,
+        path: "/all-products"
+      }
     ],
   },
 ]);
