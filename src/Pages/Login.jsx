@@ -1,9 +1,10 @@
 import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import { AuthContext } from '../firebaseAuth/AuthProvider';
+import { FaGoogle } from "react-icons/fa";
 
 const Login = () => {
-    const {logInWithEmail}=useContext(AuthContext)
+    const {logInWithEmail,loginWithGoogle}=useContext(AuthContext)
     const handleLogin = async(e) =>{
         e.preventDefault()
         const form= e.target
@@ -15,6 +16,9 @@ const Login = () => {
         await logInWithEmail(userData.email,userData.password)
         .then(result=>{console.log(result)})
         .catch(error=>{console.log(error)})
+    }
+    const handleGoogle= ()=>{
+      loginWithGoogle()
     }
     return (
         <div className="hero min-h-screen">
@@ -44,6 +48,10 @@ const Login = () => {
               </div>
             </form>
             <h2 className='text-center'>Don't have an account?? <span className='font-bold text-primary'><Link to='/register'>Register !!!</Link> </span></h2>
+            <div className='flex items-center justify-center'>
+            <button onClick={handleGoogle} className='p-2 text-3xl text-green-500 border border-green-500 rounded-full mt-2'><FaGoogle /></button>
+
+            </div>
           </div>
         </div>
       </div>

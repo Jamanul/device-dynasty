@@ -5,7 +5,7 @@ import ProductCard from "../Card/ProductCard";
 const ProductsSection = () => {
   const [randomProduct, setRandomProduct] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:5000/products/random", {
+    fetch("https://device-dynasty-server.vercel.app/products/random", {
       method: "GET",
     })
       .then(res => res.json())
@@ -18,7 +18,7 @@ const ProductsSection = () => {
   return (
     <div>
       <div className="text-center  mt-20">
-        <h2 className="text-5xl">
+        <h2 className="text-3xl md:text-5xl">
           Welcome to <span className="text-primary">DEVICE DYNASTY</span>
         </h2>
         <h6 className="text-gray-500 mt-2 text-xl">
@@ -27,7 +27,7 @@ const ProductsSection = () => {
         <FeaturedCard />
       </div>
       <div className="text-center mt-12">
-        <h2 className="text-5xl">Featured Product</h2>
+        <h2 className="text-3xl md:text-5xl">Featured Product</h2>
         <h6 className="text-gray-500 mt-2 text-xl">
           Check & Get Your Desired Product!
         </h6>

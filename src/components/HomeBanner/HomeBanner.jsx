@@ -15,7 +15,7 @@ import { Autoplay, Pagination, Navigation } from "swiper/modules";
 const HomeBanner = () => {
     const [bannerData,setBannerData]=useState([])
     useEffect(()=>{
-        fetch("http://localhost:5000/banner",{
+        fetch("https://device-dynasty-server.vercel.app/banner",{
             method: "GET"
         })
         .then(res=>res.json())

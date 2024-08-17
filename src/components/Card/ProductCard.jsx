@@ -14,11 +14,11 @@ const ProductCard = ({data}) => {
     return (
         <div className="card bg-base-100 shadow-xl">
     
-  <figure className='w-96 object-center m-4 h-96'>
+  <figure className='w-96 object-center  h-96'>
     <img
         className=''
-        height={800}
-        width={400}
+        height={600}
+        width={360}
       src={productImage}
       alt="Shoes" />
   </figure>

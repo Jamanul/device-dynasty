@@ -1,9 +1,13 @@
 import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import { AuthContext } from '../firebaseAuth/AuthProvider';
+import { FaGoogle } from 'react-icons/fa';
 
 const Registration = () => {
-    const {createUser,updateUser}=useContext(AuthContext)
+    const {createUser,updateUser,loginWithGoogle}=useContext(AuthContext)
+    const handleGoogle= ()=>{
+      loginWithGoogle()
+    }
     const handleRegister = async(e) =>{
         e.preventDefault()
         const form = e.target
@@ -62,6 +66,10 @@ const Registration = () => {
               </div>
             </form>
             <h2 className='text-center'>Don't have an account?? <span className='font-bold text-primary'><Link to='/register'>Register !!!</Link> </span></h2>
+            <div className='flex items-center justify-center'>
+            <button onClick={handleGoogle} className='p-2 text-3xl text-green-500 border border-green-500 rounded-full mt-2'><FaGoogle /></button>
+
+            </div>
           </div>
         </div>
       </div>

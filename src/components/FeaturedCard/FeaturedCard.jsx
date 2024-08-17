@@ -30,7 +30,7 @@ const FeaturedCard = () => {
   ];
   return (
     <div>
-      <h2 className="text-5xl mt-12">Featured Category</h2>
+      <h2 className="text-3xl md:text-5xl mt-12">Featured Category</h2>
       <h6 className="text-gray-500 mt-2 text-xl">
         Get Your Desired Product from Featured Category!
       </h6>
