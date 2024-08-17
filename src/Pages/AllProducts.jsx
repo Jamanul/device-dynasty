@@ -190,10 +190,10 @@ const AllProducts = () => {
           <ProductCard key={data._id} data={data}></ProductCard>
         ))}
       </div>
-      <div>
-        <button disabled={currentPage === 1} onClick={() => setCurrentPage(currentPage - 1)}>Previous</button>
-        <span>Page {currentPage} of {totalPages}</span>
-        <button disabled={currentPage === totalPages} onClick={() => setCurrentPage(currentPage + 1)}>Next</button>
+      <div className="mt-6">
+        <button className="btn mr-2 bg-primary text-white" disabled={currentPage === 1} onClick={() => setCurrentPage(currentPage - 1)}>Previous</button>
+        <span className="font-bold btn bg-primary text-white">Page {currentPage} of {totalPages}</span>
+        <button className="btn ml-2 bg-primary text-white" disabled={currentPage === totalPages} onClick={() => setCurrentPage(currentPage + 1)}>Next</button>
       </div>
     </div>
   );
