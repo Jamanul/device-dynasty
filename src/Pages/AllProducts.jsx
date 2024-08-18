@@ -20,7 +20,7 @@ const AllProducts = () => {
 
   const fetchProducts = async (page = 1) => {
     try {
-      const response = await axios.get( `http://localhost:5000/products?sort=${sort ? "acs" : "dsc"}&sortByDate=${
+      const response = await axios.get( `https://device-dynasty-server.vercel.app/products?sort=${sort ? "acs" : "dsc"}&sortByDate=${
         sortByDate ? "acs" : "dsc"
       }&minPrice=${min}&maxPrice=${max}&brand=${brand}&category=${category}&searchText=${searchText}`, {
         params: {
