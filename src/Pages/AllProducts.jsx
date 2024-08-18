@@ -10,18 +10,19 @@ const AllProducts = () => {
   const [category,setCategory] = useState("");
   const [min, setMin] = useState(0);
   const [max, setMax] = useState(10000);
-  //const [searchText, setSearchText] = useState('')
+  const [searchText, setSearchText] = useState('')
   const [currentPage, setCurrentPage] = useState(1);
   const [totalPages, setTotalPages] = useState(1);
   //console.log(sort)
   //console.log(min,max)
   //to handle price range
   //console.log(products)
+
   const fetchProducts = async (page = 1) => {
     try {
-      const response = await axios.get( `https://device-dynasty-server.vercel.app/products?sort=${sort ? "acs" : "dsc"}&sortByDate=${
+      const response = await axios.get( `http://localhost:5000/products?sort=${sort ? "acs" : "dsc"}&sortByDate=${
         sortByDate ? "acs" : "dsc"
-      }&minPrice=${min}&maxPrice=${max}&brand=${brand}&category=${category}`, {
+      }&minPrice=${min}&maxPrice=${max}&brand=${brand}&category=${category}&searchText=${searchText}`, {
         params: {
           page, limit: 10
         }
@@ -101,9 +102,14 @@ const AllProducts = () => {
     
    
   };
+  const handleSearch=(e)=>{
+    e.preventDefault()
+    const search = e.target.search.value
+    setSearchText(search)
+  }
   useEffect(() => {
     // fetch(
-    //   `https://device-dynasty-server.vercel.app/products?sort=${sort ? "acs" : "dsc"}&sortByDate=${
+    //   `http://localhost:5000/products?sort=${sort ? "acs" : "dsc"}&sortByDate=${
     //     sortByDate ? "acs" : "dsc"
     //   }&minPrice=${min}&maxPrice=${max}&brand=${brand}&category=${category}&searchText=${searchText}`,
     //   {
@@ -116,7 +122,7 @@ const AllProducts = () => {
     //     setProducts(data);
     //   });
     fetchProducts(currentPage)
-  }, [sort,sortByDate,min,max,brand,category,currentPage]);
+  }, [sort,sortByDate,min,max,brand,category,currentPage,searchText]);
   //console.log(products)
   return (
     <div className="text-center">
@@ -128,11 +134,11 @@ const AllProducts = () => {
         collection of the <br /> latest gadgets, devices, and accessories at
         unbeatable prices.
       </h6>
-      {/* <div>
-            <form action=""><input type="text" placeholder="Search" className="input input-bordered input-info w-full max-w-xs" value={searchText} onChange={(e) => setSearchText(e.target.value)} />
-            <button type="button" className="btn bg-primary text-white " >Search</button>
+      <div className="flex items-center justify-center">
+            <form action="" onSubmit={handleSearch}><input type="text" placeholder="Search" className="input input-bordered input-info w-60" value={searchText} onChange={(e) => setSearchText(e.target.value)} />
+            <input type="submit" className="btn bg-primary text-white" name="search" placeholder="search"/>
             </form>
-      </div> */}
+      </div>
       <div className="grid grid-cols-2 md:grid-cols-5 gap-2">
         <button
           className="bg-primary btn text-white"
