@@ -51,9 +51,10 @@ const Navbar = () => {
         <Link to={'/'} className=" font-bold text-primary text-xl">Device Dynasty</Link>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1">
+        <ul className=" px-1">
           <li className="font-bold hover:text-primary duration-200 ">
-            <Link to={'/all-products'}>All product</Link>
+            <Link to={'/all-products'}>All product </Link>
+            
           </li>
           {/* <li>
             <details>
@@ -100,7 +101,7 @@ const Navbar = () => {
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[99] mt-3 w-52 p-2 shadow"
           >
             <li>
               <h2 className="text-white btn bg-primary">

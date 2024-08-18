@@ -136,7 +136,7 @@ const AllProducts = () => {
       </h6>
       <div className="flex items-center justify-center">
             <form action="" onSubmit={handleSearch}><input type="text" placeholder="Search" className="input input-bordered input-info w-60" value={searchText} onChange={(e) => setSearchText(e.target.value)} />
-            <input type="submit" className="btn bg-primary text-white" name="search" placeholder="search"/>
+            <input type="submit" className="btn bg-primary text-white" name="search" value="search"/>
             </form>
       </div>
       <div className="grid grid-cols-2 md:grid-cols-5 gap-2">
@@ -166,7 +166,7 @@ const AllProducts = () => {
       </select>
       <select
         className="select select-bordered bg-primary btn text-white "
-        onChange={handleCategory}
+        onChange={handleBrand}
       >
         <option disabled selected>
           Brand

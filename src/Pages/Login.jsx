@@ -2,6 +2,7 @@ import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import { AuthContext } from '../firebaseAuth/AuthProvider';
 import { FaGoogle } from "react-icons/fa";
+import { toast } from 'react-toastify';
 
 const Login = () => {
     const {logInWithEmail,loginWithGoogle}=useContext(AuthContext)
@@ -14,11 +15,16 @@ const Login = () => {
           email,password
         }
         await logInWithEmail(userData.email,userData.password)
-        .then(result=>{console.log(result)})
-        .catch(error=>{console.log(error)})
+        .then(result=>{console.log(result) 
+          toast.success("You Have Logged in Successfully")})
+        .catch(error=>{console.log(error)
+          toast.error('Something went wrong')
+        })
     }
     const handleGoogle= ()=>{
       loginWithGoogle()
+      .then(res=>toast.success("You Have logged in Successfully"))
+      .catch(error=>toast.error('Something went wrong'))
     }
     return (
         <div className="hero min-h-screen">

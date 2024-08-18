@@ -2,11 +2,14 @@ import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import { AuthContext } from '../firebaseAuth/AuthProvider';
 import { FaGoogle } from 'react-icons/fa';
+import { toast } from 'react-toastify';
 
 const Registration = () => {
     const {createUser,updateUser,loginWithGoogle}=useContext(AuthContext)
     const handleGoogle= ()=>{
       loginWithGoogle()
+      .then(res=>toast.success("You Have logged in Successfully"))
+      .catch(error=>toast.error('Something went wrong'))
     }
     const handleRegister = async(e) =>{
         e.preventDefault()
@@ -21,9 +24,15 @@ const Registration = () => {
         await createUser(userData.email,userData.password)
         .then(res=>{
          updateUser(name,photoUrl)
-         .then(res=>console.log(res))
+         .then(res=>{
+          toast.success("You Have Registered Successfully")
+         }
+         
+         )
         })
-        .catch(error=>console.log(error))
+        .catch(error=>{console.log(error)
+        toast.error('Something went wrong')
+        })
 
     }
     return (
